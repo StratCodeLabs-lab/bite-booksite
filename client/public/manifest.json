@@ -1,0 +1,55 @@
+{
+  "name": "Bite - BookSite",
+  "short_name": "Bite",
+  "description": "Oku, puan al, zirvede ol. Kitap okumayı rekabetçi ve ödüllendirici yapan platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0e27",
+  "theme_color": "#f0a500",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["books", "education"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Kütüphane",
+      "short_name": "Kütüphane",
+      "description": "Kitap kütüphanesine git",
+      "url": "/library",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Sıralama",
+      "short_name": "Sıralama",
+      "description": "Sıralama tablosunu görüntüle",
+      "url": "/leaderboard",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
